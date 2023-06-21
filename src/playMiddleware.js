@@ -13,7 +13,7 @@ let videojsReference = videojs;
  */
 obj.isMiddlewareMediatorSupported = function() {
 
-  if (videojsReference.browser.IS_IOS || videojsReference.browser.IS_ANDROID) {
+  if (videojsReference.browser.IS_IOS) {
     return false;
 
   } else if (

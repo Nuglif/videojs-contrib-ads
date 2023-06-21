@@ -1,13 +1,13 @@
 {
   "name": "videojs-contrib-ads",
-  "description": "A framework that provides common functionality needed by video advertisement libraries working with video.js.",
+  "description": "A custom version to allow the play middleware on Android devices. A framework that provides common functionality needed by video advertisement libraries working with video.js.",
   "main": "dist/videojs.ads.js",
   "module": "dist/videojs-contrib-ads.es.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/videojs/videojs-contrib-ads.git"
   },
-  "version": "7.3.1",
+  "version": "7.3.1-custom",
   "author": "Brightcove, Inc.",
   "engines": {
     "node": ">=8",
